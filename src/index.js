@@ -1,6 +1,18 @@
+//Dependencias
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './components/App';
+import {render} from 'react-dom';
+import {BrowserRouter} from 'react-router-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//Routes
+import AppRoutes from './routes';
+
+//Assets
+import './index.css';
+
+
+
+render(
+<BrowserRouter>
+    <AppRoutes/>
+</BrowserRouter>,
+document.getElementById('root'));
