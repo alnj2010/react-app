@@ -1,7 +1,16 @@
 .content {
   background-color: white;
 }
+.App-intro{
+  display: flex;
+  justify-content: space-between;
+}
+.product-list {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
 
+}
 
 @keyframes App-logo-spin {
   from {

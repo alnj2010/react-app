@@ -1,4 +1,8 @@
 import React, {Component} from 'react'
+//Components
+import ProductList from './ProductList'
+import ShoppingCart from './ShoppingCart'
+
 import './css/Content.css'
 
 class Content extends Component{
@@ -6,7 +10,8 @@ class Content extends Component{
     return (
       <div className="content">
         <div className="App-intro">
-          <p>To get started, edit <code>src/App.js</code> and save to reload</p>
+          <ProductList/>
+          <ShoppingCart/>
         </div>
       </div>
     );
