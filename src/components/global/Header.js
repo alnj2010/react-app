@@ -8,7 +8,7 @@ function Header(props){
         <img src={logo} className="app-logo" alt="logo" />
         <nav className="app-nav">
             <li> <Link to="/">Home</Link></li>
-            <li> <Link to="/store">Store</Link></li>
+            <li> <Link to="/tienda">Tienda</Link></li>
             <li> <Link to="/aboutUs">About Us</Link></li>            
         </nav>
   </header>);

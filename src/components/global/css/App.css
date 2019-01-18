@@ -31,6 +31,44 @@
 .app-nav li a{
   color: white;
 }
+.tienda {
+  width: 100%;
+  display: flex;
+}
+
+.productos {
+ width: 70%;
+ display: flex;
+ justify-content: space-around;
+}
+
+.productos .producto{
+  background-color: white;
+}
+.productos .producto .imagen{
+  font-size: 100px;
+}
+.productos .producto .precio button{
+  width: 100px;
+}
+
+.carrito {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color:black;
+  color: aliceblue;
+
+}
+
+.carrito div{
+  display: flex;
+  justify-content: center
+}
+
+.carrito div>*{
+  margin: 5px;
+}
 
 @keyframes App-logo-spin {
   from {
